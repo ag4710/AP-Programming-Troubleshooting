@@ -9,6 +9,7 @@ def print_2d_list(table):
 
 # 자리 배치
 def seating_arrangement(output_seat,student):
+    over_student = False
     total = n * m
     empty_seats = total - len(student)
 
